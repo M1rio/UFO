@@ -1,0 +1,362 @@
+body {
+  background-image: url(data/bg.svg);
+ background-size:cover;
+background-repeat: no-repeat;
+color: #f7f7f7;
+background-color:#111;
+padding:0;
+margin:0;
+font-family: 'Baloo 2',;
+font-size:20px;
+transition:ease 0.5s;
+}
+
+.blackfilter2{
+ width:100%;
+ height:550px;
+ background-image:linear-gradient(to top ,#111,#11111100 );
+ position:absolute;
+ top:0;
+}
+.topcover{
+ width:100%;
+ height:550px;
+ position:relative;
+ top:-33px;
+}
+.bigcover{
+ width:100%;
+ height:100%;
+ box-shadow: 0 8px 30px 0 #11111190;
+}
+.game{
+ width:150px;
+ height:200px;
+ border-radius:10px;
+ box-shadow: 0 8px 30px 0 #11111190;
+ position:absolute;
+ top:400px;
+ left:7px;
+}
+.gamename{
+ font-size:40px;
+ font-weight:900;
+ position:absolute;
+ top:-40px;
+ left:10px;
+ color:#fefdfb;
+ text-shadow: 0px 0px 10px#ffffff50;
+}
+.gamedes{
+ font-size:20px;
+ width:600px;
+ position:absolute;
+ top:380px;
+ left:170px;
+ color:#eee;
+}
+.dowloadbtn{
+ border: 0.5px solid #00FFC9;
+  font-size: 20px;
+  font-weight:500;
+  font-family: 'Baloo 2',;
+  width:120px;
+  height:40px;
+  background-color: transparent;
+  border-radius: 7px;
+  font-weight: 500;
+  outline: none;
+  position:absolute;
+  top:555px;
+  color: #00FFC9;
+  right: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 30px 0 #00FFC920;
+}
+.dowloadbtn:hover{
+  background: #00FFC920;
+}
+.h3{
+ position:relative;
+ padding-left: 10px;
+ color:#fefdfb;
+ text-shadow: 0px 0px 10px#ffffff50;
+}
+
+.swiper {
+        width: 100%;
+        height: 270px;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: rgba(255,255,255,.1);
+        border-radius:10px;
+       background-size: 100% 220px;
+       background-repeat:no-repeat;
+      }
+.slideshow-container {
+  width: 95%;
+  height:550px;
+  background-color:rgba(225,225,225,.1);
+  position: relative;
+  border-radius:10px;
+  margin-top:5px;
+  box-shadow: 0 8px 30px 0 #11111190;
+}
+
+.name{
+  font-size: 23px;
+  font-weight:500;
+  font-family: 'Baloo 2',;
+  position: absolute;
+  top:200px;
+  left: 5px;
+  text-shadow: 0px 0px 10px#ffffff50;
+}
+.button{
+  border: 0.5px solid #00FFC9;
+  font-size: 16px;
+  font-family: 'Baloo 2',;
+  padding: 5px 16px;
+  background-color: transparent;
+  border-radius: 7px;
+  font-weight: 500;
+  outline: none;
+  position:absolute;
+  top:227px;
+  color: #00FFC9;
+  right: 10px;
+  transition: all 0.3s ease;
+   box-shadow: 0 8px 30px 0 #00FFC920;
+}
+.button:hover{
+  background: #00FFC920;
+}
+.backfilter{
+ width:100%;
+ height:550px;
+ border-radius: 0;
+ 	background-image:linear-gradient(to right ,#111,#11111100 );
+ position:absolute;
+z-index:1;
+}
+
+.covimg{
+ width:100%;
+ height:100%;
+ border-radius:10px;
+}
+
+.img{
+ width:100%;
+ height:550px;
+ border-radius:10px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size:40px;
+  font-weight:bolder;
+  position: absolute;
+  left:10px;
+  top:-2px;
+  text-shadow: 0px 0px 10px#ffffff50;
+   z-index:1;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #7f7f7f;
+  font-size:18px;
+  position: absolute;
+  top:50px;
+  left:10px;
+  text-shadow: 0 8px 30px 0 #11111190;
+  font-weight:900;
+   z-index:1;
+}
+
+.covergames{
+ width:250px;
+ height:300px;
+ border-radius:10px;
+ box-shadow: 0 8px 30px 0 #11111190;
+  z-index:2;
+ position:absolute;
+ left:10px;
+ top:295px;
+ border:0;
+}
+.logo{
+position:absolute;
+right:3px;
+top:2px;
+width:45px;
+z-index:1000;
+}
+.sidenav a {
+  padding-left:40px;
+  text-decoration: none;
+  font-family: 'Baloo 2',;
+  color: #bbb;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #fff;
+}
+
+.icon{
+ width:23px;
+ height:23px;
+ position: relative;
+ top: 38px;
+ left: 5px;
+}
+.cate {
+padding-left: 3px;
+font-weight: 700;
+font-size:25px;
+color:#00FFC9;
+position:absolute;
+top:-25px;
+text-shadow: 0px 0px 15px#00ffcc30;
+}
+#layout,
+#menu,
+.menu-link {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+#layout {
+    position: relative;
+    padding-left: 0;
+}
+    #layout.active {
+        position: relative;
+        left: 150px;
+    }
+        #layout.active #menu {
+            left: 150px;
+            width: 150px;
+        }
+
+        #layout.active .menu-link {
+            left: 150px;
+        }
+
+#menu {
+margin-left: -150px;
+width: 150px;
+position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+background: #191919;
+z-index:1000;
+-webkit-overflow-scrolling: touch;
+border-radius:0px 15px 15px 0px;
+box-shadow: 0 10px 35px 0 #09090930;
+}
+ 
+.menu-link {
+position: static;
+display: block;
+top: 0;
+left: 0;
+background: rgba(0,0,0,0);
+font-size: 10px;
+z-index: 10;
+width: 2em;
+height: auto;
+padding: 10px 4px;
+}
+
+
+    .menu-link span {
+        position: relative;
+        display: block;
+        z-index: 10;
+    }
+
+    .menu-link span,
+    .menu-link span:before,
+    .menu-link span:after {
+        background-color: #fff;
+        width: 100%;
+        height: 0.2em;
+    }
+
+        .menu-link span:before,
+        .menu-link span:after {
+            position: absolute;
+            margin-top: -0.6em;
+            content: " ";
+        }
+
+        .menu-link span:after {
+            margin-top: 0.6em;
+        }
+
+
+/* -- Responsive Styles (Media Queries) ------------------------------------- */
+
+/*
+Hides the menu at `48em`, but modify this based on your app's needs.
+*/
+@media (min-width: 48em) {
+
+  
+
+    #layout {
+        padding-left: 150px; /* left col width "#menu" */
+        left: 0;
+    }
+    #menu {
+        left: 150px;
+    }
+
+    .menu-link {
+        position: fixed;
+        left: 150px;
+        display: none;
+    }
+
+    #layout.activei .menu-link {
+        left: 150px;
+    }
+}
+
+
+.error{
+ font-size:40px;
+ font-weight:500;
+ text-shadow: 0px 0px 10px#ffffff50;
+ text-align: center;
+}
+.eri{
+ width:500px;
+}
+.erb{
+ width:200px;
+ height:40px;
+ color:#fff;
+ font-size:16px;
+ text-shadow: 0px 0px 10px#ffffff50;
+ border: 0.5px solid #00FFC9;
+ border-radius: 7px;
+ background-color: transparent;
+ transition: all 0.3s ease;
+  box-shadow: 0 8px 30px 0 #00FFC920;
+}
+.erb:hover{
+  background: #00FFC920;
+}

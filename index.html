@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="phone.css">
+<link rel="stylesheet" href="swiper.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" type="image/x-icon" href="data/cover.png">         
+<title>UFO</title>
+</head>
+<body>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-41480445-1', 'purecss.io');
+ga('send', 'pageview');
+</script>
+
+<div id="layout">
+<a href="#menu" id="menuLink" class="menu-link"><span></span></a>
+
+    <div id="menu">
+        <div class="pure-menu pure-menu-open">
+<p class="cate">Categoris</p>
+<br>
+<div class="sidenav">
+<img src="data/1.png"class="icon"><a href="#">Action</a>
+<img src="data/6.png"class="icon"><a href="#">Arcade</a>
+<img src="data/2.png"class="icon"><a href="#">Adventure</a>
+<img src="data/3.png"class="icon"><a href="#">Casino</a>
+<img src="data/8.png"class="icon"><a href="#">Puzzle</a>
+<img src="data/7.png"class="icon"><a href="#">Racing</a>
+<img src="data/4.png"class="icon"><a href="#">Sport</a>
+</div>
+           
+        </div>
+    </div>
+<div id="main">
+<img src="data/logo.svg" class="logo">
+<br>
+<center> 
+ <div class="slideshow-container">
+  
+  <div>
+     <div class="backfilter"></div>
+  
+  <div class="mySlides">
+  <div class="numbertext">1 / 5</div>
+  <img src="" class="img">
+  <div class="text"></div>
+  <div class="covergames"><a href=""><img src="" class="covimg"></a></div>
+</div>
+</div>
+  
+  
+<div class="mySlides ">
+  <div class="numbertext">2 / 5</div>
+  <img src="" class="img">
+  <div class="text">Game2</div>
+  <div class="covergames"><a href=""><img src="" class="covimg"></a></div>
+</div>
+
+<div class="mySlides ">
+  <div class="numbertext">3 / 5</div>
+  <img src="" class="img">
+  <div class="text">Game3</div>
+    <div class="covergames"><a href=""><img src="" class="covimg"></a></div>
+</div>
+
+
+<div class="mySlides ">
+  <div class="numbertext">4 / 5</div>
+  <img src="" class="img">
+  <div class="text">Game4</div>
+    <div class="covergames"><a href=""><img src="" class="covimg"></a></div>
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">5 / 5</div>
+  <img src="" class="img">
+  <div class="text">Game5</div>
+    <div class="covergames"><a href=""><img src="" class="covimg"></a></div>
+    
+</div>
+
+</div>
+<br>
+
+<div class="dotpin">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+</center>
+ <br>
+ <br>
+ <h3 class="h3">New</h3>
+ <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game1</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game2</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game3</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game4</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game5</p><a href=""><button class="button">Dowload</button></a></div>
+      </div>
+      
+    </div>
+<br>
+
+ <br>
+ <h3 class="h3">Populair</h3>
+ <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game1</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game2</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game3</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game4</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game5</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game6</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game7</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game8</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game9</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game10</p><a href=""><button class="button">Dowload</button></a></div>
+
+      </div>
+      
+    </div>
+<br>
+
+
+ <br>
+ <h3 class="h3">Rendome</h3>
+ <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game1</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game2</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game3</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game4</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game5</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game6</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game7</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game8</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game9</p><a href=""><button class="button">Dowload</button></a></div>
+<div class="swiper-slide" style="background-image:url()"><p class="name">Game10</p><a href=""><button class="button">Dowload</button></a></div>
+
+      </div>
+      
+    </div>
+<br>
+
+    <!-- Swiper JS -->
+    <script src="swiper.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1.5,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1.5,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2.3,
+            spaceBetween: 15,
+          },
+          1024: {
+            slidesPerView: 2.5,
+            spaceBetween: 20,
+          },
+        },
+      });
+    </script>
+<script  src="script.js"></script>
+</body>
+</html>
